@@ -458,7 +458,6 @@ service section start
 
     .servicebox .box {
         margin: 5px;
-        margin-top: 10px;
         width: 46%;
         padding: 5px;
 
@@ -475,7 +474,7 @@ service section start
 @media screen and (max-width: 550px) {
     .servicebox .box {
         margin: 5px;
-        margin-top: 15px;
+        margin-top: 10px;
         width: 95%;
         display: block;
         padding: 5px;
