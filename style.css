@@ -20,7 +20,7 @@ header section start
 =======================*/
 
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: #efefef;
     min-height: 71px;
     box-shadow: 0 3px 5px black;
 }
@@ -90,7 +90,7 @@ header nav ul li a:hover::after {
 
 .dropdown .dropdown-menu {
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: #efefef;
     min-width: 200px;
     left: 0;
     display: none;
@@ -859,6 +859,14 @@ footer {
 /* ==================
 footer section end
 =======================*/
+
+
+
+
+
+
+
+
 
 
 
