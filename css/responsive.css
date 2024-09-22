@@ -1,0 +1,183 @@
+@media only screen and (max-width: 1170px) {
+    .mainContainer {
+        width: 96%;
+    }
+
+    .rightHero h2 {
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .socialIcon {
+        display: none;
+    }
+
+    .leftHero {
+        flex-basis: 100%;
+        padding: 0 40px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .leftHeroContainer {
+        width: 60%;
+        margin: auto;
+    }
+
+    .rightHero {
+        flex-basis: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .experienceClients {
+        justify-content: center;
+    }
+
+    .hamburgermenucontainer {
+        display: block;
+    }
+
+    .background {
+        top: 40px;
+    }
+    .button {
+        top: 40px;
+    }
+
+    .rightHero::after {
+        content: none;
+    }
+
+    nav.navBar {
+        display: none;
+    }
+    section.ourServices {
+        margin: 0;
+    }
+    .serviceRow {
+        margin-top: 40px;
+    }
+    .serviceItems {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    
+    span.serviceIcons {
+        margin: auto;
+    }
+    .skillleft {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .skillright {
+        flex-basis: 100%;
+    }
+    .skillcard {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .portfolioheadleft {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .portfolioheadright {
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+    .portfolioheader {
+        flex-wrap: wrap;
+    }
+    .portfolioitem {
+        flex-basis: 100%;
+    }
+    .pricingcard {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .formleft {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .formleft ul {
+        display: inline-block;
+    }
+
+    .formright {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+    .testicontainer {
+        padding: 60px 40px;
+    }
+    .testicontainer::before {
+        content: none;
+    }
+    .pricingcontainer {
+        border-radius: 0;
+    }
+       
+}
+
+@media only screen and (max-width: 752px) {
+    .leftHeroContainer {
+        width: 80%;
+    }
+    .rightHero h2 {
+        font-size: 3rem;
+    }
+    .serviceContainer h2 {
+        font-size: 2.8rem;
+    }
+    .skillleft h3 {
+        font-size: 2.5rem;
+        line-height: 100%;
+    }
+    .skillitems {
+        flex-basis: 100%;
+    }
+    .portfolioheadleft h2 {
+        font-size: 2.5rem;
+        line-height: 100%;
+    }
+    span.testicon i {
+        font-size: 12rem;
+    }
+    .testitop h3, .testitop h3 p {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    .testimainright p {
+        font-size: 1.4rem;
+        line-height: 1;
+    }
+    .pricetop h2 {
+        font-size: 2.5rem;
+    }
+    .testimainleft {
+        flex-basis: 100%;
+    }
+    .testimainright {
+        flex-basis: 100%;
+        margin: 15px 0;
+    }
+    .formleft h2 {
+        font-size: 2.5rem;
+    }
+    .nameinput {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .mailinput {
+        flex-basis: 100%;
+    }
+    .experienceClients {
+        display: block;
+    }
+    .expCli {
+        margin: 10px 0;
+    }
+}
